@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Montserrat-b;
+  src: url(../fonts/Montserrat-Bold.ttf);
+  width: 700px;
+}
+@font-face {
+  font-family: Montserrat-eb;
+  src: url(../fonts/Montserrat-ExtraBold.ttf);
+  width: 800px;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf);
+  width: 400px;
+}
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/Inter_18pt-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 1871px;
+  height: 108px;
+  background-color: #EDC7B7;
+}
+.header__icons img {
+  margin-right: 22px;
+  margin-top: 25px;
+  margin-bottom: 23px;
+}
+.header__title {
+  color: #AC3B61;
+  font-family: Montserrat-eb;
+  font-size: 64px;
+  margin-left: 590px;
+}
+
+.main__buttons {
+  display: flex;
+  justify-content: space-between;
+}
